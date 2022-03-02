@@ -26,7 +26,7 @@ module.exports = {
           title: [
             {
               text: {
-                content: `${interaction.options.getString("タイトル")}`,
+                content: interaction.options.getString("タイトル")`,
               },
             },
           ],
