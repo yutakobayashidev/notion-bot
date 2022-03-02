@@ -9,7 +9,7 @@ Discord 上から Notion にタスクを追加できる Discord BOT です。
 プロジェクトのルートディレクトリに以下の内容で.env を作成します。
 
 ```bash
-BOT_TOKEN='foo' # Discord BOT TOKEN
+BOT_TOKEN='foo' # Discord BOT Token
 BOT_JOIN_LOG_CHANNEL_ID='bar' # Channel ID to be notified
 NOTION_API_KEY='baz' # Notion integrations Token
 NOTION_DATABASE_ID='qux' # Notion Database ID
