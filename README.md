@@ -26,3 +26,7 @@ $ npm install
 $ node index.js
 Bot is online and running in 0 servers!
 ```
+
+## Inspired
+
+https://twitter.com/Hoshiko99/status/1498271642560073728
