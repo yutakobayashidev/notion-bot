@@ -1,4 +1,8 @@
 {
+  "name": "notion-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
   "dependencies": {
     "@notionhq/client": "^1.0.1",
     "discord.js": "^13.6.0",
