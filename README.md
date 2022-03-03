@@ -1,6 +1,6 @@
 # notion-bot
 
-Discord 上から Notion にタスクを追加できる Discord BOT です。
+Discord 上から Notion にタスクを追加したり期間切れタスクや未スケジューリングタスクを確認できる Discord BOT です。
 
 ## 使用方法
 
