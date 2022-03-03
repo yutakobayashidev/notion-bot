@@ -8,11 +8,11 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const commands = {};
 const commandFiles = fs
-  .readdirSync("./commands")
+  .readdirSync("./src/commands")
   .filter((file) => file.endsWith(".js"));
 
 for (const file of commandFiles) {
-  const command = require(`./commands/${file}`);
+  const command = require(`./src/commands/${file}`);
   commands[command.data.name] = command;
 }
 
@@ -26,7 +26,7 @@ client.once("ready", async () => {
     type: "PLAYING",
   });
   console.log(
-    `Bot is online and running in ${client.guilds.cache.size} servers!`
+    `${client.user.tag} is online and running in ${client.guilds.cache.size} servers!`
   );
 });
 

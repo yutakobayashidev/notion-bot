@@ -15,6 +15,7 @@ const Embed = new MessageEmbed()
     name: "Github Repository",
     value: "https://github.com/yutakobayashidev/notion-bot",
   });
+
 module.exports = {
   data: {
     name: "help",
