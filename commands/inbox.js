@@ -34,8 +34,11 @@ module.exports = {
       },
     });
     const url = response["url"];
-    await interaction.reply(
-      `「${interaction.options.getString("タイトル")}」を作成しました\n` + url
-    );
+    await interaction.reply({
+      content:
+        `「${interaction.options.getString("タイトル")}」を作成しました\n` +
+        url,
+      ephemeral: true,
+    });
   },
 };
