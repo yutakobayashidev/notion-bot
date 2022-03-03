@@ -12,6 +12,7 @@ module.exports = {
         type: "STRING",
         name: "title",
         description: "タイトルを入力します。",
+        required: true,
       },
     ],
   },
