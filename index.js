@@ -22,7 +22,7 @@ client.once("ready", async () => {
     data.push(commands[commandName].data);
   }
   await client.application.commands.set(data);
-  client.user.setActivity(`/inbox | ${client.guilds.cache.size} servers`, {
+  client.user.setActivity(`/help | ${client.guilds.cache.size} servers`, {
     type: "PLAYING",
   });
   console.log(
