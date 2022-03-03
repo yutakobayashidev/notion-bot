@@ -48,7 +48,7 @@ client.on("interactionCreate", async (interaction) => {
 
 client.on("guildCreate", (guild) => {
   const Embed = new MessageEmbed(guild)
-    .setColor([88, 101, 242])
+    .setColor([0, 0, 0])
     .setTitle("サーバー参加通知")
     .setDescription(`${client.user.tag}が${guild.name}で追加されました。`)
     .addFields(

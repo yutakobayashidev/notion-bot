@@ -129,7 +129,7 @@ module.exports = {
           });
           console.log(response);
           await interaction.reply({
-            content: `期間切れタスクが${
+            content: `未スケジューリングタスクが${
               Object.keys(response["results"]).length
             }件見つかりました。`,
             ephemeral: true,

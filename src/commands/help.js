@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-const Embed = new MessageEmbed()
+const help = new MessageEmbed()
   .setColor([0, 0, 0])
   .setAuthor({
     name: "Notion",
@@ -22,6 +22,6 @@ module.exports = {
     description: "BOTのヘルプを表示します。",
   },
   async execute(interaction) {
-    await interaction.reply({ embeds: [Embed] });
+    await interaction.reply({ embeds: [help] });
   },
 };
