@@ -22,11 +22,15 @@ NOTION_BOOKS_DATABASE_ID='quux'
 
 ```bash
 # install packages
-$ npm install
+$ yarn install
 # start local server
 $ node index.js
 Bot is online and running in 0 servers!
 ```
+
+## Deployment
+
+Heroku などにデプロイすることをおすすめします。
 
 ## Inspired
 
