@@ -13,6 +13,7 @@ BOT_TOKEN='foo' # Discord BOT Token
 BOT_JOIN_LOG_CHANNEL_ID='bar' # Channel ID to be notified
 NOTION_API_KEY='baz' # Notion integrations Token
 NOTION_DATABASE_ID='qux' # Notion Database ID
+NOTION_BOOKS_DATABASE_ID='quux'
 ```
 
 ### 起動
